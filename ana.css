@@ -1,0 +1,38 @@
+#sy {
+  width:200px;
+  height:25px;
+  font-size:15px;
+  text-align:left;
+  padding-left:15px;
+  font-family: monospace;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+#snc {
+  width:220px;
+  height:400px;
+  font-size:16px;
+  text-align: left;
+  font-family: monospace;
+  letter-spacing: 2px;
+  overflow: auto;
+}
+#snc > div {
+  font-size:14px;
+  text-align: left;
+  font-family: monospace;
+  padding-top: 2px;
+  padding-left: 5px;
+  border-bottom:1px solid lightgray;
+  margin-bottom: 4px;
+}
+
+#snc > div:first-child {
+
+}
+
+#snc>div.secili {
+  color:blue;
+  border-color:blue;
+  font-weight: bold;
+}
